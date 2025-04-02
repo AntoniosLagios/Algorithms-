@@ -166,7 +166,6 @@ void insertionSort(int arr[], int n) {
         arr[j + 1] = key;
     }
 }
-
 int main() {
     int arr[] = {12, 11, 13, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
