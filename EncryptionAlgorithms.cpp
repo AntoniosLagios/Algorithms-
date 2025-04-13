@@ -94,7 +94,6 @@ int main() {
 #include <iostream>
 #include <openssl/sha.h>
 #include <iomanip>
-
 void hashSHA1(const std::string& input) {
     unsigned char hash[SHA_DIGEST_LENGTH];
     SHA1((const unsigned char*)input.c_str(), input.size(), hash);
@@ -124,7 +123,6 @@ int modExp(int base, int exp, int mod) {
     }
     return result;
 }
-
 int main() {
     int p = 3, q = 11;
     int n = p * q;            // 33
