@@ -82,7 +82,6 @@ struct Node {
     Node* left;
     Node* right;
 };
-
 Node* buildSimpleTree(const vector<vector<double>>& X, const vector<int>& y, int feature, double threshold) {
     Node* node = new Node();
 
@@ -122,7 +121,6 @@ Node* buildSimpleTree(const vector<vector<double>>& X, const vector<int>& y, int
 
     return node;
 }
-
 int predict(Node* tree, const vector<double>& input) {
     if (tree->isLeaf) return tree->label;
     if (input[tree->feature] <= tree->threshold)
