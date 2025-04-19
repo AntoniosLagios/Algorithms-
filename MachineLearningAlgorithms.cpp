@@ -209,7 +209,6 @@ public:
             sum += weights[i] * x[i];
         return (sum >= 0) ? 1 : 0;
     }
-
     void train(const vector<vector<double>>& X, const vector<int>& y, int epochs) {
         for (int e = 0; e < epochs; ++e) {
             for (int i = 0; i < X.size(); ++i) {
