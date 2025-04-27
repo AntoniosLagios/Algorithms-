@@ -191,7 +191,6 @@ public:
 #include <vector>
 using namespace std;
 
-
 class Perceptron {
     vector<double> weights;
     double bias;
