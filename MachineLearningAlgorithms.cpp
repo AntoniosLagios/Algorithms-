@@ -36,6 +36,7 @@ void linearRegression(const vector<double>& x, const vector<double>& y, double a
     cout << "Final Model: y = " << m << "x + " << b << endl;
 }
 //K-Nearest Neighbors (KNN)
+
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -132,6 +133,7 @@ int predict(Node* tree, const vector<double>& input) {
 #include <iostream>
 #include <vector>
 using namespace std;
+
 
 class NaiveBayes {
     double p0, p1; // prior probabilities
