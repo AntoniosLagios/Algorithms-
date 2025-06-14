@@ -72,6 +72,7 @@ int main() {
     std::cout << "R = (" << R.x << ", " << R.y << ")\n";
     return 0;
 }
+
 //SHA-256 (Use library like OpenSSL or Crypto++)
 #include <iostream>
 #include <openssl/sha.h>
